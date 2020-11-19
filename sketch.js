@@ -38,7 +38,7 @@ function setup(){
     bird = new Bird(100,100);
     clog=new Log(220,180,40,PI/2)
     sling = new Chain(bird.body,clog.body)
-    sling1=new Chain(pig3,pig1)
+    sling1=new Chain(log1,pig1)
 }
 
 function draw(){
