@@ -36,7 +36,7 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
-    clog=new Log(220,180,80,PI/2)
+    clog=new Log(220,180,40,PI/2)
     sling = new Chain(bird.body,clog.body)
 }
 
